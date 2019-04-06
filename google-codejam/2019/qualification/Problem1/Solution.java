@@ -1,6 +1,6 @@
-import java.util. * ;
-import java.lang. * ;
-import java.io. * ;
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 
 class Solution {
 	static double power(double d, int n) {
