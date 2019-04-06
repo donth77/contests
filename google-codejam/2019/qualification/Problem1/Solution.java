@@ -25,7 +25,6 @@ class Solution {
 		int num1 = (int) Math.floor((double) N / 2);
 		int num2 = (int) Math.ceil((double) N / 2);
 		while (hasFourDigit(num1) || hasFourDigit(num2)) {
-
 			String str1 = String.valueOf(num1);
 			String str2 = String.valueOf(num2);
 			for (int i = 0; i < str1.length(); i++) {
@@ -47,7 +46,7 @@ class Solution {
 	}
 	public static void main(String[] args) {
 		int lineNum = 0;
-		Scanner input = new Scanner(System. in );
+		Scanner input = new Scanner(System. in);
 
 		while (input.hasNext()) {
 			String line = input.nextLine();
